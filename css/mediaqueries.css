@@ -1,0 +1,28 @@
+@media screen and (max-width:662px){
+
+    .contenido{
+        width: 100%;
+        height: auto;
+        /*height: fit-content*/ 
+    }
+    .contenedor{
+        padding: 40px;
+        flex-direction: column;
+    }
+    .card{
+        flex: 1 0 400px;
+    }
+    footer h1{
+        font-size: 12pt;
+    }
+    .hide_mobile{
+        display: none;
+    }
+    header{
+        height: 40px;
+        padding: 0 20px;
+    }
+    header .marca, header .social{
+        font-size: 14pt;
+    }
+}
