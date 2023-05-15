@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/tp2.css">
+    <link rel="stylesheet" href="css/mq.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/brands.min.css" integrity="sha512-9YHSK59/rjvhtDcY/b+4rdnl0V4LPDWdkKceBl8ZLF5TB6745ml1AfluEU6dFWqwDw9lPvnauxFgpKvJqp7jiQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined"/>
+    <title>Restaurante</title>
+</head>
+<body>
+    <section class="portada bnrep">
+        <div class="mensaje exo">
+            <div class="texto">
+                <h2>Buenas noches, Ismael</h2>
+                <h5>Es hora de cenar!</h5>
+            </div>
+            <div class="busqueda">
+                <div class="icono material-icons-outlined">
+                    place
+                </div>
+                <input type="search" class="manrope" placeholder="Buscar restaurante">
+                <input type="submit" class="material-icons-outlined" value="search">
+            </div>
+        </div>
+    </section>
+    <section class="menu hind">
+        <ul>
+            <li>
+                <a href="#">
+                    <i class="material-icons-outlined">local_cafe</i>
+                    <p>Desayuno</p>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <i class="material-icons-outlined">lunch_dining</i>
+                    <p>Fast Food</p>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <i class="material-icons-outlined">ramen_dining</i>
+                    <p>Sopa</p>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <i class="material-icons-outlined">bakery_dining</i>
+                    <p>Medialunas</p>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <i class="material-icons-outlined">set_meal</i>
+                    <p>Pescado</p>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <i class="material-icons-outlined">tapas</i>
+                    <p>Tapas</p>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <i class="material-icons-outlined">brunch_dining</i>
+                    <p>Brunch</p>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <i class="material-icons-outlined">cake</i>
+                    <p>Torta</p>
+                </a>
+            </li>
+        </ul>
+    </section>
+    <section class="productos hind">
+        <p>Restaurantes</p>
+        <div class="restos">
+            <!---------------esto vamos a usar para crear tarjetas con JSON----------------------->
+            <article class="card">
+                <div class="img"><a href="resto.html"><img src="img/tradiciones-culinarias-de-cuba.png"></a></div>
+                <div class="datosresto">
+                    <a href="resto.html">
+                        <div class="titulo manrope">
+                            <h3>Cuba</h3>
+                            <h4>Comida cubana y caribeña</h4>
+                            <h5>1.5km - 9:00 - 15:00hs</h5>
+                        </div>
+                    </a>
+                    <div class="valores">
+                        <div class="estrellas">
+                            <i class="material-icons-outlined f10">star star star star_half star_outlined</i>
+                        </div>
+                        <div class="rangoprecio">
+                            <i class="material-icons-outlined">attach_money attach_money attach_money</i>
+                        </div>
+                    </div>
+                    <div class="puntuacion manrope">3.5</div>
+                </div>
+            </article>
+            <!---------------hasta acá vamos a usar para crear tarjetas con JSON----------------------->
+            <article class="card">
+                <div class="img"><a href="resto.html"><img src="img/empanadas-mariscos-570x330.jpg"></a></div>
+                <div class="datosresto">
+                    <a href="resto.html">
+                        <div class="titulo manrope">
+                            <h3>Empanadas</h3>
+                            <h4>Comida española</h4>
+                            <h5>1.5km - 9:00 - 15:00hs</h5>
+                        </div>
+                    </a>
+                    <div class="valores">
+                        <div class="estrellas">
+                            <i class="material-icons-outlined f10">star star star star_half star_outlined</i>
+                        </div>
+                        <div class="rangoprecio">
+                            <i class="material-icons-outlined">attach_money attach_money attach_money</i>
+                        </div>
+                    </div>
+                    <div class="puntuacion manrope">3.5</div>
+                </div>
+            </article>
+            <article class="card">
+                <div class="img"><a href="resto.html"><img src="img/images.jpg"></a></div>
+                <div class="datosresto">
+                    <a href="resto.html">
+                        <div class="titulo manrope">
+                            <h3>Fideos</h3>
+                            <h4>Comida italiana</h4>
+                            <h5>1.5km - 9:00 - 15:00hs</h5>
+                        </div>
+                    </a>
+                    <div class="valores">
+                        <div class="estrellas">
+                            <i class="material-icons-outlined f10">star star star star_half star_outlined</i>
+                        </div>
+                        <div class="rangoprecio">
+                            <i class="material-icons-outlined">attach_money attach_money attach_money</i>
+                        </div>
+                    </div>
+                    <div class="puntuacion manrope">3.5</div>
+                </div>
+            </article>
+        </div>
+    </section>
+</body>
+</html>

@@ -1,0 +1,326 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hind&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: all 0.10s ease-in-out;
+}
+::-webkit-scrollbar {
+    height: 0px;
+    width: 5px;
+    border-radius: 5px;
+}
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+::-webkit-scrollbar-thumb {
+    background: rgb(109, 223, 185);
+    ;
+    border-radius: 5px;
+}
+::-webkit-scrollbar-thumb:hover{
+    background: rgb(84, 171, 142);
+    ;
+}
+.ubuntu {
+    font-family: 'Ubuntu Condensed', sans-serif;
+}
+.exo {
+    font-family: 'Exo', sans-serif;
+}
+.hind {
+    font-family: 'Hind', sans-serif;
+}
+.bnrep{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.manrope{
+    font-family: 'Manrope', sans-serif;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color: goldenrod;
+}
+.portada{
+    position: relative;
+    background-image: url(../img/restaurante.jpg);
+    padding: 7%;
+    color: white;
+    box-shadow: inset 0 0 125px black;
+    height: 350px;
+}
+.portada .texto{
+    position: absolute;
+    bottom: 70px;
+}
+.busqueda{
+    position: absolute;
+    bottom: -20px;
+    background-color: white;
+    width: 86%;
+    height: 60px;
+    margin: auto;
+    box-shadow: 0 10px 20px -15px black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.busqueda .icono{
+    background-color: goldenrod;
+    height: 60px;
+    width: 60px;
+    text-align: center;
+    line-height: 60px;
+}
+.icono.material-icons-outlined{
+    font-size: 24pt;
+}
+.busqueda input[type="search"]{
+    height: 100%;
+    width: calc(100% - 120px);
+    border: none;
+    outline: none;
+    padding: 0 20px;
+    font-size: 12pt;
+}
+.busqueda input[type="search"]:focus{
+    font-size: 14pt;
+}
+.busqueda input[type="submit"]{
+    height: 60px;
+    width: 60px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    font-size: 24pt;
+    color: rgb(180, 180, 180);
+}
+.menu{
+    margin-top: 40px;
+    background-color: white;
+    padding: 20px;
+    margin-bottom: -10px;
+}
+.menu ul{
+    display: flex;
+    justify-content: flex-start;
+    overflow-x: scroll;
+}
+.menu ul li{
+    flex: 0 0 100px;
+    text-align: center;
+    list-style: none;
+}
+.menu a{
+    color: black;
+    /* color: rgb(148, 104, 104); */
+    text-decoration: none;
+}
+.productos{
+    /*background-color: gold;*/
+    padding: 20px;
+}
+.restos{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    /*background-color: blueviolet;*/
+    align-items: center;
+    /*padding: 10px;*/
+}
+.card{
+    position: relative;
+    display: flex;
+    flex: 0 0 160px;
+    height: 160px;
+    width: 90%;
+    /*background-color: aqua;*/
+    box-shadow: 0px 25px 25px -25px rgba(0, 0, 0, 0.473);
+    border-radius: 10px 0 0 10px;
+}
+.card .img{
+    flex: 0 0 40%;
+    background-color: brown;
+    overflow: hidden;
+    border-radius: 10px 0 0 10px;
+}
+.img img{
+    height: 100%;
+    object-fit: cover;
+}
+.card .datosresto{
+    position: absolute;
+    left: calc(40% - 15px);
+    width: calc(60% + 15px);
+    height: 100%;
+    padding: 12px;
+    padding-top: 10px;
+    flex: 0 0 60%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 0 15px;
+}
+.card .titulo{
+    padding-left: 5px;
+}
+.card .descripcion{
+    color: gray;
+}
+.valores{
+    position: relative;
+    overflow: visible;
+    display: flex;
+    justify-content: space-between;
+    color: goldenrod;
+    padding-left: 10px;
+}
+.valores .estrellas{
+    position: relative;
+    overflow: visible;
+    display: flex;
+    justify-content: space-between;
+
+    color: goldenrod;
+}
+.f10{
+    font-size: 12pt!important;
+}
+.puntuacion{
+    position: absolute;
+    top: -5px;
+    right: -11px;
+    height: 40px;
+    width: 40px;
+    background-color: gold;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 10px 0;
+    box-shadow: 10px 10px 25px 1px rgba(0, 0, 0, 0.3);
+}
+.productos p{
+    padding-bottom: 25px;
+    padding-left: 15px;
+    font-size: 19px;
+    /* font-weight: lighter; */
+    color: gray;
+}
+
+ul {list-style: none;}
+
+main{
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+}
+
+main ul{
+    display: flex;
+    justify-content: space-around;
+}
+
+main ul li{text-align: center}
+
+footer{
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+}
+.nav_mobile ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+.nav_mobile ul li{
+    height: 40px;
+    line-height: 40px;
+}
+.nav_mobile a{
+    text-decoration: none;
+    color: black;
+}
+.nav_mobile ul li:hover{
+    color: black;
+    border-top: solid 4px aquamarine;
+}
+.valoracion{
+    position: absolute;
+    background-color: gold;
+    height: 60px; width: 60px;
+    line-height: 60px;
+    bottom: -20px;
+    right: 20px;
+    color: black;
+    font-weight: 700;
+    border-radius: 15px 0;
+    box-shadow: 0 0 15px 2px rgba(0, 0, 0, 0.351);
+    text-align: center;
+    font-size: 17pt;
+}
+.banner{
+    width: 100%;
+    /* background-color: rgb(174, 147, 106); */
+    padding: 10px;
+}
+.banner button{
+    left: 20px;
+    background-color: transparent;
+    border: 0;
+}
+.banner button:hover{
+    background-color: aquamarine;
+}
+.item_menu{
+    background-color: blueviolet;
+}
+.plato{
+    background-color: yellow;
+    height: 100px; width: 100px;
+    border-radius: 50%;
+}
+.titulo h4, .titulo h5{
+    color: gray;
+    font-weight: lighter;
+}
+.item_menu p{background-color: orange;}
+.pa{position:absolute};
+.posrel{
+    position: relative;
+}
+.flex{display: flex;}
+.centrar_vert{align-items: center;}
+.centrar_h{justify-content: center;}
+/* .vh100{height: 100vh;} */
+.producto{
+    height: 450px;
+    width: 100%;
+    overflow: hidden;
+    background-color: yellow;
+}
+.obj_fit{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    z-index: 0;
+}
+.producto .titulo{
+    z-index: 1;
+    background-color: red;
+    width: 70%;
+    bottom: 0;
+}

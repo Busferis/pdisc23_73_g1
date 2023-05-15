@@ -1,0 +1,15 @@
+@media screen and (max-width:662px) {
+    .valores .material-icons-outlined{
+        font-size: 10pt!important;
+    }
+    .productos{
+        width: 100%;
+        height: auto;
+    }
+    .hide_mobile{
+        display: none;
+    }
+    .valores{
+        flex-direction: column;
+    }
+}
