@@ -12,6 +12,7 @@
 }
 .contenedor{
     height: 330px;
+    align-items: center;
 }
 body{
     background-color: rgba(0, 0, 0, 0.685);
@@ -25,12 +26,25 @@ body{
     width: 200px;
     border-radius: 50%;
     justify-items: center;
+    overflow: hidden;
+}
+.img_grande{
+    position: absolute;
+    height: 380px;
+    width: 500px;
+    right: -140px;
 }
 .icono_pequeño{
     background-color: rgb(255, 255, 255);
     height: 50px;
     width: 50px;
     border-radius: 50%;
+    overflow: hidden;
+}
+.img_pequeña{
+    height: 160%;
+    width: 230%;
+    margin-left: -34px;
 }
 .corazon .material-icons-outlined{
     color: rgb(133, 133, 133);
@@ -55,11 +69,19 @@ body{
     border-radius: 10px 10px 10px 10px;
     flex-direction: column;
     padding: 20px;
+    border: 1px solid;
+    border-color: white;
 }
 .nombre{
     color: white;
     font-size: 18pt;
     margin-left: 10px;
+}
+.descripcion{
+    position: absolute;
+    left: 80px;
+    top: 50px;
+    color: white;
 }
 .texto{
     position: absolute;
@@ -88,14 +110,31 @@ body{
 .enviar_mensaje input[type=submit] {
     height: 30px;
     width: 60px;
-    border: none;
+    border: 1px solid;
     outline: none;
     background-color: transparent;
     font-size: 24pt;
     color: black;
+    border-radius: 0px 10px 10px 0px;
 }
 .cuerpo{
     width: 95%;
+}
+.mensajes{
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+    color: white;
+    padding: 30px;
+    font-size: 15pt;
+}
+.nombre_usuario{
+    position: absolute;
+    top: 310px;
+    left: 165px;
+    color: white;
+    font-size: 18pt;
+    margin-left: 10px;
 }
 .iconos{
     display: flex;
