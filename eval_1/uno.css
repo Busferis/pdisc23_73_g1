@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind&display=swap');
+*{
+    margin: 0;
+}
+.hind {
+    font-family: 'Hind', sans-serif;
+}
+.uno{
+    background-color: rgba(17, 17, 17, 0.514);
+    height: 200px;
+    width: 100%;
+}
+.contenedor{
+    height: 330px;
+}
+body{
+    background-color: rgba(0, 0, 0, 0.685);
+}
+.icono{
+    position: absolute;
+    top: 95px;
+    left: 150px;
+    background-color: rgb(200, 200, 200);
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    justify-items: center;
+}
+.icono_pequeño{
+    background-color: rgb(255, 255, 255);
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+.corazon .material-icons-outlined{
+    color: rgb(133, 133, 133);
+    font-size: 25pt!important;
+    display: flex;
+    justify-content: flex-end;
+    padding: 30px;
+}
+.restos{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.card{
+    position: relative;
+    display: flex;
+    flex: 0 0 210px;
+    width: 90%;
+    background-color: rgb(148, 148, 148);
+    border-radius: 10px 10px 10px 10px;
+    flex-direction: column;
+    padding: 20px;
+}
+.nombre{
+    color: white;
+    font-size: 18pt;
+    margin-left: 10px;
+}
+.texto{
+    position: absolute;
+    top: 80px;
+    left: 25px;
+    right: 10px;
+    color: white;
+}
+.enviar_mensaje{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 165px;
+    margin-left: 30px;
+    align-items: center;
+}
+.enviar_mensaje input[type=search]{
+    background-color: rgba(17, 17, 17, 0.699);
+    border: none;
+    outline: none;
+    border-radius: 10px 0px 0px 10px;
+    padding: 0 18px;
+    height: 30px;
+    width: 100%;
+}
+.enviar_mensaje input[type=submit] {
+    height: 30px;
+    width: 60px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    font-size: 24pt;
+    color: black;
+}
+.cuerpo{
+    width: 95%;
+}
+.iconos{
+    display: flex;
+}
+.header{
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+}
+.nose{
+    width: 100%;
+    height: 60px;
+    display: flex;
+}
