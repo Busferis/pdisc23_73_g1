@@ -41,10 +41,10 @@
             </div>
             <div class="card">
                 <div class="imagen"></div>
-                <div class="titulo ubuntu">Tp01-Landing Page</div>
+                <div class="titulo ubuntu">Evaluacion</div>
                 <div class="desc ubuntu">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fuga praesentium laudantium deserunt blanditiis. 
                     Quaerat voluptatibus autem incidunt consequatur rerum, porro eius id animi rem odio enim tempore distinctio harum quos!</div>
-                <a href="" class="boton ubuntu">Visualizar</a>
+                <a href="eval_1/index.html" class="boton ubuntu">Visualizar</a>
             </div>
             <div class="card">
                 <div class="imagen"></div>
