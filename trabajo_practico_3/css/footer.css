@@ -19,6 +19,7 @@
     border-radius: 20px 20px 20px 20px;
     justify-content: center;
     box-shadow: 0px 8px 50px -20px;
+    margin-bottom: 10px;
 }
 
 .foo .hola ul{
@@ -32,7 +33,7 @@
     font-size: 30px;
 }
 
-.material-icons.blue600 { color: rgb(40, 72, 253); }
+.material-icons.blue700 { color: rgb(11 85 225); }
 .material-icons.gray600 { color: #a3a3a3; }
 
 .footer{
