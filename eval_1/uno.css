@@ -7,26 +7,31 @@
 }
 .uno{
     background-color: rgba(17, 17, 17, 0.514);
-    height: 200px;
+    height: auto;
     width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
 }
 .contenedor{
+    display: flex;
     height: 330px;
     align-items: center;
+    flex-direction: column;
 }
 body{
     background-color: rgba(0, 0, 0, 0.685);
 }
 .icono{
-    position: absolute;
-    top: 95px;
-    left: 150px;
+    display: flex;
+    position: relative;
     background-color: rgb(200, 200, 200);
     height: 200px;
     width: 200px;
     border-radius: 50%;
-    justify-items: center;
     overflow: hidden;
+    z-index: 1;
 }
 .img_grande{
     position: absolute;
@@ -51,7 +56,8 @@ body{
     font-size: 25pt!important;
     display: flex;
     justify-content: flex-end;
-    padding: 30px;
+    padding: 10px;
+    margin-left: 170px;
 }
 .restos{
     width: 100%;
@@ -129,9 +135,6 @@ body{
     font-size: 15pt;
 }
 .nombre_usuario{
-    position: absolute;
-    top: 310px;
-    left: 165px;
     color: white;
     font-size: 18pt;
     margin-left: 10px;

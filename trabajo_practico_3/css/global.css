@@ -1,0 +1,52 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* .app{
+    background-color: rgb(204, 38, 255);
+    max-width: 662px;
+    margin: auto;
+    height: 100vh;
+} */
+
+body{background-color: rgb(247 247 247)};
+
+.app{
+    height: 100vh;
+    width: 100%;
+    max-width: 662px;
+    background-color: white;
+    margin: auto;
+    border-radius: 25px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+/*CONTENEDOR SCROLLBAR*/
+::-webkit-scrollbar {
+    height: 0px;
+    width: 5px;
+    border-radius: 5px;
+}
+
+/* FONDO BARRA SCROLL*/
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+/* SELECTOR */
+::-webkit-scrollbar-thumb {
+    background: rgb(109, 223, 185);
+    ;
+    border-radius: 5px;
+}
+
+/* SELECTOR hover */
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(84, 171, 142);
+    ;
+}

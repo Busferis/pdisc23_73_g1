@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
+
+.oxygen{
+    font-family: 'Oxygen', sans-serif;
+}
+.cabin{
+    font-family: 'Cabin', sans-serif;
+}
+.outfit{
+    font-family: 'Outfit', sans-serif;
+}
+
+.material-icons.blue500 { color: #639ffb; }
+.material-icons.marron600 { color: rgb(179, 146, 87) }
+
+.blue {color: rgb(51 96 193)}
+.gray { color: #8f8f8f; }
+.gray2 { color: #c1bdbd;}
+
+.portada{
+    height: 300px;
+    width: 100%;
+    background-image: url(https://www.wallpaperflare.com/static/847/982/458/tower-bridge-dawn-london-bridge-twilight-wallpaper.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 20px;
+    border-radius: 0px 0px 30px 30px;
+    box-shadow: 0px 7px 20px -12px;
+}
+
+.padding{
+    padding: 30px;
+}
+
+.atras{
+    display: flex;
+    background-color: white;
+    height: 25px;
+    width: 25px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px 20px 20px 20px;
+}
+
+.favoritos{
+    display: flex;
+    position: relative;
+    top: 188px;
+    background-color: white;
+    height: 55px;
+    width: 55px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+    left: 77%;
+    box-shadow: 0px 7px 20px -12px;
+}
+
+.botones{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+    font-size: 11pt;
+}
+
+.botones_display{
+    visibility: hidden;
+}
+
+.overview{
+    display: flex;
+    gap: 30px;
+    justify-content: space-around;
+}
+
+.overview .clase .principal{
+    height: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.overview p{
+    margin: 0;
+    margin-left: 29px;
+}
+
+.pt{
+    margin-top: 20px;
+    font-size: 10pt;
+}
+
+.icono.material-icons{
+    margin-right: 5px;
+}

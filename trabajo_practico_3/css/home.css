@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+
+.kanit{
+    font-family: 'Kanit', sans-serif;
+}
+.inter{
+    font-family: 'Inter', sans-serif;
+    font-size: 10pt;
+}
+
+.icons.material-icons{
+    font-size: 35px;
+    background-color: white;
+    padding: 14px;
+    border-radius: 20px 20px 20px 20px;
+    margin-top: 25px;
+    box-shadow: 0px 7px 20px -12px;
+}
+
+.menu{
+    margin-right: 10px;
+}
+
+.home{
+    padding: 0 30px;
+}
+
+.home ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    gap: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.material-icons.purple600 { color: #726aeb; }
+.material-icons.cyan600 { color: #00d4c2; }
+.material-icons.orange600 { color: #ffae00; }
+.material-icons.blue600 { color: #00aeff; }
+.material-icons.gray600 { color: #a3a3a3; }
+
+.titulos{
+    display: flex;
+    align-items:baseline;
+    justify-content: space-between;
+}
+
+.h1_home{
+    font-size: 20pt;
+}
+
+.cards{
+    padding-top: 20px;
+    padding-bottom: 5px;
+    display: flex;
+    gap: 10px;
+    overflow-x: scroll;
+}
+
+.card{
+    height: 310px;
+    width: 185px;
+    flex: 0 0 185px;
+}
+
+.card .img{
+    height: 80%;
+    width: 100%;
+    background-color: yellow;
+    border-radius: 25px 25px 25px 25px;
+    overflow: hidden;
+}
+
+.img_londres{
+    background-image: url(https://www.thelondres.com/wp-content/uploads/2018/08/tower-bridge.jpg);
+    background-size: cover;
+}
+
+.img_paris{
+    background-image: url(https://images.unsplash.com/photo-1568321612313-209650d5d99a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE0fHx8ZW58MHx8fHx8&w=1000&q=80);
+    background-size: contain;
+}
+
+.img_rio{
+    background-image: url(https://tourscanner.com/blog/wp-content/uploads/2022/05/things-to-do-in-Rio-de-Janeiro.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.descripcion{
+    height: 20%;
+    padding-top: 10px;
+    padding-left: 15px;
+    position: relative;
+}
